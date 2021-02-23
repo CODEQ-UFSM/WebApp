@@ -144,7 +144,7 @@
 
         <div class="container">
 
-          <h1 class="masthead-heading mb-0 fancy">Teste<span class="blink">&nbsp|</span></h1>
+          <h1 class="masthead-heading mb-0 fancy">CodeQ<span class="blink">&nbsp|</span></h1>
 
           <br/><h2 class="masthead-subheading mb-0" style="letter-spacing: 1px; font-size:35px;">Modelagem e simulação simplificada</h2>
 
