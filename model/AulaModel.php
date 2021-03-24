@@ -32,7 +32,7 @@ class AulaModel extends Model {
 		$sql = "SELECT * FROM pagina WHERE id_aula = ".$id_aula." AND num_ordem = ".$num_ordem;
 		$linha = $this->ExecuteQuery($sql, array())[0];
 		if(!isset($linha)) return 'bug';
-		return new Pagina($linha['id_pagina'], $linha['id_aula'], $linha['num_ordem'],$linha['html'],'nao');	
+		return new Pagina($linha['id_pagina'], $linha['id_aula'], $linha['num_ordem'],$linha['html'],$linha['titulo'],'nao');	
         $this->view->load('footerartigo', [$data, $trilhaid, $cor, $quantidade]);
     }
 	
@@ -53,13 +53,12 @@ class AulaModel extends Model {
 	
 	public function getNames($id_aula){
 				
-		$sql = "SELECT  SUBSTRING(html, 1, 200) as sbstr FROM pagina WHERE id_aula = :id ORDER BY num_ordem";
+		$sql = "SELECT  titulo FROM pagina WHERE id_aula = :id ORDER BY num_ordem";
 		$resultados = $this->ExecuteQuery($sql, [':id'=>$id_aula]);
 		
 		foreach($resultados as $linha){
-			$data = $linha['sbstr']; // your HTML data from the question
-			preg_match( '/<h1 class="\page-title\">(.*?)<\/h1>/', $data, $match);
-            $list[] = $match[1];
+			$list[] = $linha['titulo']; // your HTML data from the question
+			
         }
 		
 		return $list;
