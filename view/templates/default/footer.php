@@ -6,7 +6,7 @@
 
     <p class="m-0 text-center text-white small">
 
-        <br/> Conteúdo por <span class="fancy">CodeQ</span>
+        <br/> Desenvolvido por <span class="fancy">CodeQ</span>
 
 <br/>
 
