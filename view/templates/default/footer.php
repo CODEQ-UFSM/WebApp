@@ -10,7 +10,7 @@
 
 <br/>
 
-Centro de Tecnologia - UFSM
+UFSM
 
       </p>
 
