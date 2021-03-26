@@ -133,7 +133,7 @@
 		str.replace(/\n/ig, '');
 		res = str.split(/\n/ig);
 		if(res[0].toLowerCase() == 'trinket'){
-                    message = "<p style='color:grey; font-size:17px !important;'><i>É preciso fazer login para editar o programa!<i><p>"
+                    message = "<p style='color:grey; font-size:17px !important;'><i>Pode ser preciso fazer login para editar o programa!<i><p>"
                     newtoggle[i].outerHTML = message.concat(res[1]);
 		}
 		if(res[0].toLowerCase() == 'pergunta'){
