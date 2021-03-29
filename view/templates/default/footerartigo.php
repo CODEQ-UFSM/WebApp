@@ -20,13 +20,13 @@
             <?php if ($data->getUltimo() == 'sim' && $data->getNumOrdem() == 1): ?>
                 <div class="col-lg-12" >
                     <a href="../viewTrilha/<?php echo $trilhaid; ?>" class="shadow btn btn-primary btn-block mt-5 js-scroll-trigger degrade">
-                        <h4 class="display-6">Voltar para seção</h4>
+                        <h4 class="display-6">Voltar para trilha</h4>
                     </a>
                 </div>
             <?php elseif($data->getUltimo() == 'sim' && $data->getNumOrdem() != 1):?>
                 <div class="col-lg-12">
                     <a href="../viewTrilha/<?php echo $trilhaid; ?>" class="shadow btn btn-primary btn-block mt-5 js-scroll-trigger degrade " style="border: none; background :linear-gradient(45deg, rgba(<?php echo $cor; ?>, 0.7) 0%, rgba(<?php $x = explode(',', $cor); echo ($x[0]+100).",".($x[1]+100).",".($x[2]+100); ?>, 0.7) 100%)">
-                        <h4 class="display-6">Voltar para seção</h4>
+                        <h4 class="display-6">Voltar para trilha</h4>
                     </a>
                 </div>
                 <div class="col-lg-12">
@@ -42,7 +42,7 @@
                 </div>
                 <div class="col-lg-12">
                     <a href="../viewTrilha/<?php echo $trilhaid; ?>" class="shadow btn btn-dark btn-block mt-5 js-scroll-trigger">
-                        <h4 class="display-6">Voltar para seção</h4>
+                        <h4 class="display-6">Voltar para trilha</h4>
                     </a>
                 </div>
             <?php else: ?>
