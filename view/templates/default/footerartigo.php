@@ -133,7 +133,7 @@
 		str.replace(/\n/ig, '');
 		res = str.split(/\n/ig);
 		if(res[0].toLowerCase() == 'trinket'){
-                    message = "<p style='color:grey; font-size:17px !important;'><i>Pode ser preciso fazer login para editar o programa!<i><p>"
+                    message = ""
                     newtoggle[i].outerHTML = message.concat(res[1]);
 		}
 		if(res[0].toLowerCase() == 'pergunta'){
@@ -178,7 +178,7 @@
 							res2[0] = trinkets.substring(0,7)
 							res2[1] = trinkets.substring(94)
 							if(res2[0].toLowerCase() == 'trinket'){
-                                                                message = "<p style='color:grey; font-size:17px !important;'><i>É preciso fazer login para editar o programa!<i><p>"
+                                                                message = ""
 								newtoggle[i+1].outerHTML = message.concat(res2[1]);
 							}
 						}
