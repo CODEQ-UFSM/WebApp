@@ -42,9 +42,9 @@
 
         <div class="p-5">
 
-          <h2 class="display-4"><span class="bluemarker fancy shadow-lg">Aprenda programação</span></h2>
-
-          <p>CodeQ é uma plataforma online de ensino de programação e pensamento lógico com foco em aprendizagem baseada em desafios para estudantes da Engenharia Química UFSM, por meio de modelagem e simulação de problemas matemáticos e problemas aplicados ao curso.</p>
+          <h2 class="display-4"><span class="bluemarker fancy shadow-lg">Aprenda programação!</span></h2>
+          <br>
+          <p>CodeQ é uma plataforma online de ensino de programação que busca desafiar estudantes através de modelagens e simulações de problemas matemáticos e aplicados à engenharia.</p>
 
         </div>
 
@@ -78,9 +78,43 @@
 
         <div class="p-5">
 
-          <h2 class="display-4"><span class="bluemarker fancy shadow-lg">"Lorem ipsum!"</span></h2>
+          <h2 class="display-4"><span class="bluemarker fancy shadow-lg">Desafie-se!</span></h2>
+          <br>
+          <p>Ao adentrar as trilhas de aprendizagem, você vai descobrir do básico ao avançado sobre o mundo da programação, com pequenos testes que vão ajudar você a verificar seu progresso.</p>
 
-          <p>TESTE TESTESed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+    
+<section>
+
+  <div class="container">
+
+    <div class="row align-items-center">
+
+      <div class="col-lg-6 order-lg-2">
+
+        <div class="p-5">
+
+          <img class="img-fluid rounded-circle  rounded-circle1" src="https://i.ibb.co/ZYbk1qR/philipp-berndt-5i0-Gno-TTj-SE-unsplash-1.jpg" alt="">
+
+        </div>
+
+      </div>
+
+      <div class="col-lg-6 order-lg-1">
+
+        <div class="p-5">
+
+          <h2 class="display-4"><span class="bluemarker fancy shadow-lg">Consiga mais oportunidades!</span></h2>
+          <br>
+          <p>Levando em consideração o fato de que parte dos profissionais das Engenharias ocupam cargos que utilizam programação, esta plataforma certamente contribuirá para a sua formação profissional.</p>
 
         </div>
 
