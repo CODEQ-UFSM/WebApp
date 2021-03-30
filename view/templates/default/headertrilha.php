@@ -28,7 +28,7 @@
 
 
 
-    <meta property="og:description" content="Simplificando código">
+    <meta property="og:description" content="Plataforma online de ensino de programação que busca desafiar estudantes através de modelagens e simulações de problemas matemáticos e aplicados à engenharia.">
 
 
 
